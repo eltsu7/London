@@ -119,18 +119,6 @@ body {
     }
 }
 
-.page-head-introduction {
-    margin: 0.5vw 0 1.6vw;
-    color: color(var(--color-border) l(-5%));
-    font-size: 2.2rem;
-    line-height: 1.35em;
-}
-@media (max-width: 500px) {
-    .page-head-introduction {
-        font-size: 1.6rem;
-    }
-}
-
 .site-foot {
     margin: 3vw 0 1vw;
     text-align: center;
