@@ -6,11 +6,9 @@ into the {body} of the default.hbs template --}}
     {{#if @site.title}}
     <header class="page-head">
         <h2 class="page-head-title">{{@site.title}}</h2>
-    </header>
-    {{/if}}
-    {{#if @site.description}}
-    <header class="page-head">
-        <h3 class="page-head-description">{{@site.description}}</h2>
+        {{#if @site.description}}
+            <h3 class="page-head-description">{{@site.description}}</h2>
+        {{/if}}
     </header>
     {{/if}}
 {{/is}}
