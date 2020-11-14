@@ -119,6 +119,12 @@ body {
     }
 }
 
+.site-main {
+    max-width: var(--content-max-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .site-foot {
     margin: 3vw 0 1vw;
     text-align: center;
@@ -403,7 +409,7 @@ body {
     flex: 1 1 50%;
     display: flex;
     position: relative;
-    height: 35vw;
+    height: calc(var(--content-max-width) / 2);
     background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
     background-size: cover;
     overflow: hidden;
