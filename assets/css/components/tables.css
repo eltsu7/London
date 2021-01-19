@@ -10,14 +10,14 @@ table {
 
 th {
     color: var(--color-base);
-    font-size: 0.9em;
+    font-size: 1.2em;
     font-weight: var(--font-bold);
     padding: 0 0.7em 0.4em 0.7em;
     text-align: left;
 }
 
 td {
-    padding: 0.4em 0.7em;
+    padding: 0.1em 0.5em;
     border-left-width: 0;
     border-top-width: 0;
 }
